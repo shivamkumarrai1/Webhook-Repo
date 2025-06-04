@@ -47,7 +47,7 @@ To test this project, you will need to:
 
 ### 1. Clone the repo
 
-git clone https://github.com/your-username/webhook-repo.git
+git clone https://github.com/shivamkumarrai1/Webhook-Repo.git
 cd webhook-repo
 
 2. Set up virtual environment
@@ -94,7 +94,9 @@ Open http://localhost:5000 in your browser.
 UI updates every 15 seconds and shows:
 
 shivamkumarrai1 pushed to main on 05 Jun 2025, 09:12:47 AM IST
+
 shivamkumarrai1 submitted a pull request from feature/test to main on ...
+
 shivamkumarrai1 merged branch feature/test to main on ...
 
 🗂 Repo Structure
