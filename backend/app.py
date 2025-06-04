@@ -73,9 +73,9 @@ def webhook():
         return 'Error processing webhook', 400
 
 
-# ------------------------------
+
 # Events API (GET /events)
-# ------------------------------
+
 @app.route('/events', methods=['GET'])
 def get_events():
     # Get last 10 events sorted by timestamp (latest first)
