@@ -108,3 +108,4 @@ def script():
     # Serve the frontend JavaScript file
     return send_from_directory(os.path.join(os.path.dirname(__file__), '..', 'frontend'), 'script.js')
 
+
