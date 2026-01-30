@@ -21,7 +21,6 @@ async function fetchEvents() {
         list.appendChild(li);
     });
 }
-
 // Converts ISO timestamp to IST time string
 function formatIST(timestamp) {
     const utcDate = new Date(timestamp);
@@ -41,4 +40,5 @@ function formatIST(timestamp) {
 }
 
 fetchEvents();
+
 setInterval(fetchEvents, 15000);
